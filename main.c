@@ -5,16 +5,16 @@
 int main(){
 	//FILE* lyap = fopen("lyap", "wt");
 	//FILE* xy;
-	//3‚Â‚Ì¯‚ÌÀ•W“_‚ğ‹L˜^‚·‚éƒtƒ@ƒCƒ‹
+	//3ã¤ã®æ˜Ÿã®åº§æ¨™ç‚¹ã‚’è¨˜éŒ²ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«
 	FILE* xy0 = fopen("xy0", "wt");
 	FILE* xy1 = fopen("xy1", "wt");
 	FILE* xy2 = fopen("xy2", "wt");
 
-	double G = 1.4;  //d—Í’è”
-	int N = 3;		 //¯‚Ì”
-	float M = 1.0;   //¯‚Ì¿—Ê@•Ï‚¦‚È‚­‚Ä‚à‚æ‚¢
+	double G = 1.4;  //é‡åŠ›å®šæ•°
+	int N = 3;	//æ˜Ÿã®æ•°
+	float M = 1.0;   //æ˜Ÿã®è³ªé‡
 
-	double pi = 3.14159265359;  //‰~ü—¦
+	double pi = 3.14159265359;  //å††å‘¨ç‡
 	int i, j, k, l;
 	double kaku;
 	double r, fx, fy;
@@ -79,12 +79,6 @@ int main(){
 			fprintf(xy1, "%f  %f\n", x[1], y[1]);
 			fprintf(xy2, "%f  %f\n", x[2], y[2]);
 
-			//sprintf(filename, "%d", i);
-			//xy = fopen(filename, "w");
-			//fprintf(xy, "%f  %f\n", x[0], y[0]);
-			//fprintf(xy, "%f  %f\n", x[1], y[1]);
-			//fprintf(xy, "%f  %f\n", x[2], y[2]);
-			//fclose(xy);
 		}
 	}
 	fclose(xy0);
